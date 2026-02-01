@@ -4,7 +4,7 @@ banaction = nftables-drop
 
 [sshd]
 enable = true
-port = 6658
+port = 7749
 filter = sshd
 maxretry = 3
 findtime = 10m

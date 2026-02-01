@@ -1,7 +1,7 @@
 [DEFAULT]
 backend = systemd		
 banaction = nftables-multiport
-chain     = input
+chain     = f2b-input
 
 [sshd]
 enable = true

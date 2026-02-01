@@ -1,0 +1,12 @@
+[DEFAULT]
+backend = systemd		
+banaction = nftables-drop
+chain     = f2b-input
+
+[sshd]
+enable = true
+port = 7749
+filter = sshd
+maxretry = 3
+findtime = 10m
+bantime = 12h

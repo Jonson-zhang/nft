@@ -3,7 +3,7 @@ backend = systemd
 banaction = nftables-drop
 
 [sshd]
-enable = true
+enabled = true
 port = 7749
 filter = sshd
 maxretry = 3
